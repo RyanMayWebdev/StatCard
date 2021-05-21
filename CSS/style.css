@@ -1,8 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter&family=Lexend+Deca&display=swap');
 
 body {
-    font-size: 15px;
     background-color: hsl(233, 47%, 7%);
+    font-size: 15px;
     height:100vh;
 }
 
@@ -17,21 +17,21 @@ body {
     }
     .textcontainer {
         display:flex;
-        flex-wrap: wrap;
         flex-direction: column;
+        flex-wrap: wrap;
         text-align: center;
     }
     .textbox {
+        margin:auto;
         padding:0px !important;
         text-align: center;
-        margin:auto;
     }
     .statsbox {
-        text-align: center;
-        flex-direction: column;
         align-items: center;
+        flex-direction: column;
         justify-content: space-evenly;
         padding:20px 0px !important;
+        text-align: center;
     }
 
     .statblocks {
@@ -44,18 +44,18 @@ body {
     }
 }
 .centering {
-    margin:25% auto;
     display:flex;
     flex-wrap: wrap;
+    margin:25% auto;
 
 }
 
 .cardcontainer{
-    margin:0% auto;
     display: flex;
-    justify-content: center;
     flex-grow: 1;
     flex-shrink:1;
+    justify-content: center;
+    margin:0% auto;
 }
 .textcontainer {
     background-color: hsl(244, 38%, 16%);
@@ -66,47 +66,47 @@ body {
 .textbox {
     font-family: 'Inter', sans-serif;
     line-height: 1.5;
-    width:310px;
     padding:20px 120px 0px 60px;
+    width:310px;
 
 }
 
 .statsbox {
-
-    padding:50px 120px 30px 30px;
     display: flex;
     justify-content: space-evenly;
+
+    padding:50px 120px 30px 30px;
 }
 
 .imagecontainer {
-    display: flex;
-    flex-wrap: wrap;
-    position:relative;
-    flex-shrink: 1;
     background-image: url(../images/image-header-desktop.jpg);
     background-position: center;
     background-repeat: no-repeat;
-    width:540px;
+    display: flex;
+    flex-shrink: 1;
+    flex-wrap: wrap;
     height:446px;
+    position:relative;
+    width:540px;
 
 }
 
 
 
 .purpleoverlay {
-    position: absolute;
-    top:0px;
+    background-color: hsl(277, 100%, 30%);
     bottom:0px;
-    right:0px;
     left:0px;
     opacity:0.5;
-    background-color: hsl(277, 100%, 30%);
+    position: absolute;
+    right:0px;
+    top:0px;
     z-index:10;
 }
 
 h1 {
-    font-weight: 700;
     font-size:2em;
+    font-weight: 700;
 }
 
 h1,h2 {
